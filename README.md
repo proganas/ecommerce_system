@@ -1,14 +1,32 @@
-Dear,
+# eCommerce System
+## contains:
+-	Categories (multi-levels)
+-	Products (can assign it to any category parent or child)
+-	Shop products (some products can be added to the shop once or more)
+-	Orders (on shop products)
+  
+### Using Laravel 9 framework
 
-I hope this message finds you well. I wanted to update you that I have successfully completed the task. It took me a total of 25 hours to complete this task. 
+### Use Laravel eloquent while dealing with models
 
-The task involves running two specific Laravel commands to set up our project database correctly. The commands are as follows:
+## Tasks:
+- Create migration for needing tables
+- Create DB seeds
+- Define model relations
+- Make API to return the latest shop products (you should get one from each category)
+- Make API with input category ID and output "child categories and all shop products under this category or any child category"
+- Make API to add order on a shop product (note: you should validate the request) 
+- Make a form to add orders using Ajax posting to the previous API
 
-Run Migrations:
-php artisan migrate
+___
+## Don't Forget
 
-Seed the Database:
-php artisan db:seed
+- Run Migrations:
+  ```
+  php artisan migrate
+  ```
 
- If you have any questions or need further clarification regarding this task, please do not hesitate to reach out to me.
-Thank you for your guidance throughout this process.
+- Seed the Database:
+  ```
+  php artisan db:seed
+  ```
